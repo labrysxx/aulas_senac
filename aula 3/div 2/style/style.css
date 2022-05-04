@@ -1,0 +1,65 @@
+/* id se chama com # 
+   class se chama com . 
+*/
+
+body{
+    background-color: #313131;
+}
+
+#um{
+    position: absolute;
+    background-color: #FD97A1;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+}
+
+#dois{
+    position: absolute;
+    background-color: #E2B4FA;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+}
+
+#tres{
+    position: absolute;
+    background-color: #7EA1C4;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+}
+
+#quatro{
+    position: absolute;
+    background-color: #F2B705;
+    width: 200px;
+    height: 200px;
+    top: 300px;
+    left: 300px;
+}
+
+.branco{
+    color: white;
+}
+
+.cinza{
+    color: rgb(92, 91, 91);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1),
+div:nth-child(2),
+div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
