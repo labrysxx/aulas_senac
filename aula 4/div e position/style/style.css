@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    position: absolute;
+    width: 1024px;
+    height: 1024px;
+    background: rgb(168, 168, 168);
+    left: 50%;
+    margin-left: -512px;
+}
+
+#cabecalho{
+    position: absolute;
+    width: 1024px;
+    height: 154px;
+    background: rgb(218, 109, 109);
+    left: 0;
+    margin-left: 0;
+}
+
+nav{
+    position: absolute;
+    width: 500px;
+    height: 88px;
+    background: rgb(67, 70, 228);
+    left: 50%;
+    margin-left: -50px;
+    top: 30px;
+}
+
+#secao-um{
+    position: absolute;
+    width: 750px;
+    height: 200px;
+    background: rgb(228, 75, 220);
+    left: 0;
+    top: 154px;
+}
+
+#lateral{
+    position: absolute;
+    width: 274px;
+    height: 600px;
+    background: rgb(235, 140, 16);
+    left: 750px;
+    top: 154px;
+}
+
+#secao-dois{
+    position: absolute;
+    width: 375px;
+    height: 200px;
+    background: rgb(75, 228, 88);
+    left: 0;
+    top: 354px;
+}
+
+#secao-tres{
+    position: absolute;
+    width: 375px;
+    height: 200px;
+    background: rgb(75, 129, 228);
+    left: 375px;
+    top: 354px;
+}
+
+#secao-quatro{
+    position: absolute;
+    width: 750px;
+    height: 200px;
+    background: rgb(75, 205, 228);
+    left: 0;
+    top: 554px;
+}
+
+#rodape{
+    position: absolute;
+    width: 1024px;
+    height: 270px;
+    background: rgb(43, 42, 42);
+    left: 0;
+    top: 754px;
+}
+
