@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+}
+
+#principal{
+    position: relative;
+    width: 1200px;
+    height: 600px; /* auto */
+    background: rgb(193, 220, 245);
+}
+
+#box1{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    background: #04BF8A;
+    padding: 10px;
+    margin: 10px;
+    border: 5 solid black;
+    overflow: auto;
+}
+
+#box2{
+    position: absolute;
+    width: 370px; /* sem margin rigth e left */
+    height: 550px;
+    background: #D9C45B;
+    left: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5 solid black;
+    overflow: auto;
+}
+
+#box3{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    background: #BF5A36;
+    left: 800px;
+    padding: 10px;
+    margin: 10px;
+    border: 5 solid black;
+    overflow: auto;
+}
+
+
