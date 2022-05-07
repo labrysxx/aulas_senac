@@ -8,6 +8,7 @@
     height: 500px;
     background: rgb(192, 187, 187);
     top: 80px;
+    border-radius: 15px;
 }
 
 #um{
@@ -16,6 +17,7 @@
     height: 380px;
     background: hsl(31, 77%, 52%);
     padding: 60px;
+    border-radius: 15px 0 0 15px;
 }
 
 #dois{
@@ -34,6 +36,7 @@
     background: hsl(179, 100%, 13%);
     left: 600px;
     padding: 60px;
+    border-radius: 0 15px 15px 0;
 }
 
 p{
