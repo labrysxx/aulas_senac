@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula1 - Java Script</title>
+    <!-- js aqui: executado antes de carregar a página -->
+    <script>
+        alert("JS declarado na tag HEAD");
+    </script>
+</head>
+<body>
+    <h1>Título da página</h1>
+    <!-- js aqui: executado depois de carregar a página -->
+    <script>
+        alert("JS declarado na tag BODY");
+        var titulo = "Título alterado";
+        window.document.title = titulo;
+        /* prompt gera uma janela */
+        var texto = ""; //entrada
+        texto = window.prompt("Saída de um texto na tela"); //processamento
+        alert("Foi digitada a seguinte entrada:" + texto); //saída
+    </script>
+</body>
+</html>

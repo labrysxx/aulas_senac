@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script>
+        //entrada
+        var numero1 = 0;
+        var numero2 = 0;
+        numero1 = window.prompt("numero 1");
+        numero2 = window.prompt("numero 2");
+
+        //processamento
+        var soma = parseFloat(numero1) + parseFloat(numero2);
+        var subtracao = parseFloat(numero1) - parseFloat(numero2);
+        var multiplicacao = parseFloat(numero1) * parseFloat(numero2);
+        var divisao = parseFloat(numero1) / parseFloat(numero2);
+
+        //saída
+        document.writeln("a soma é: " + soma);
+        document.writeln("<br>a subtração é: " + subtracao);
+        document.writeln("<br>a multiplicação é: " + multiplicacao);
+        document.writeln("<br>a divisão é: " + divisao);
+    </script>
+</body>
+</html>
