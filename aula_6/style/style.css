@@ -1,0 +1,91 @@
+*{
+    margin: 0 auto;
+}
+
+:root{
+    --header: #5990D9;
+    --nav: #5AA658;
+    --art-um: #D9C0A3;
+    --art-dois: #D97855;
+    --art-tres: #BFA004;
+    --aside: #F25244;
+    --footer: #4b4a49;
+}
+
+#principal{
+    position: relative;
+    width: 1280px;
+    height: 1024px;
+    background: rgb(179, 178, 178);
+}
+
+header{
+    position: absolute;
+    width: 1280px;
+    height: 154px;
+    background: var(--header);
+}
+
+nav{
+    position: absolute;
+    width: 683px;
+    height: 88px;
+    background: var(--nav);
+    left: 550px;
+    top: 30px;
+}
+
+#art-um{
+    position: absolute;
+    width: 931px;
+    height: 199px;
+    background: var(--art-um);
+    top: 154px;
+}
+
+aside{
+    position: absolute;
+    width: 349px;
+    height: 598px;
+    background: var(--aside);
+    left: 931px;
+    top: 154px;
+}
+
+#art-dois{
+    position: absolute;
+    width: 465px;
+    height: 199px;
+    background: var(--art-dois);
+    top: 353px;
+}
+
+#art-tres{
+    position: absolute;
+    width: 466px;
+    height: 199px;
+    background: var(--art-tres);
+    top: 353px;
+    left: 465px;
+}
+
+#art-quatro{
+    position: absolute;
+    width: 931px;
+    height: 199px;
+    background: var(--art-um);
+    top: 552px;
+}
+
+footer{
+    position: absolute;
+    width: 1280px;
+    height: 273px;
+    background: var(--footer);
+    top: 751px;
+}
+
+/* desktop - breakpoints */
+
+
+
