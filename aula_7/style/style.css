@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    position: relative;
+    width: 1024px;
+    height: 826px;
+    background: rgb(216, 213, 213);
+}
+
+#um{
+    position: absolute;
+    width: 512px;
+    height: 413px;
+}
+
+#dois{
+    position: absolute;
+    width: 512px;
+    height: 413px;
+    left: 512px;
+}
+
+#tres{
+    position: absolute;
+    width: 512px;
+    height: 413px;
+    left: 512px;
+    top: 413px;
+}
+
+#quatro{
+    position: absolute;
+    width: 512px;
+    height: 413px;
+    top: 413px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    padding: 50px 80px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
