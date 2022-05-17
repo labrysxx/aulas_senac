@@ -1,0 +1,42 @@
+/* Responsivo */
+
+/* Desktop mínimo de largura = 780px | max = 1024px */
+@media screen and (min-width: 780px) {
+    body{
+        background: black;
+    }
+    #um{background: rgb(216, 213, 213);}
+    #quatro{background: rgb(216, 213, 213);}
+    h1{display: inline-block; padding: 60px 80px 0 80px;}
+    p{display: inline-block; padding: 0 80px;}
+    a{display: inline-block; padding: 0 80px;}
+}
+
+/* Tablet máx de largura = 779px | mínimo = 481px */
+@media screen and (min-width: 320px) and (max-width: 779px) {
+    body{width:100%}
+    #um{width: auto; background: rgb(216, 213, 213); display:flex; align-items: center; flex-direction: column;}
+    #dois{width: 100%}
+    #tres{width: 100%}
+    #quatro{width: auto; background: rgb(216, 213, 213); display:flex; align-items: center; flex-direction: column;}
+    h1{padding-top: 90px;}
+    img{width: 100%; height: 100%;}
+    p{display: inline-block; padding: 0 80px;}
+    a{display: inline-block; padding: 20px 80px 40px 80px;}
+    .text{text-align: center;}
+}
+
+/* Mobile máx de largura = 320px */
+@media screen and (max-width: 320px){
+    body{width:100%}
+    #um{width: 100%;height: auto ;background: rgb(216, 213, 213); display:flex; align-items: center; flex-direction: column;}
+    #dois{width: auto; height: 250px;}
+    #tres{width: auto; height: 250px;}
+    #quatro{width: 100%; height: auto; background: rgb(216, 213, 213); display:flex; justify-content: center ; align-items: center; flex-direction: column;}
+    h1{display: inline-block; padding: 50px 30px 0 30px; font-size: 30px;}
+    img{width: 100%; height: 100%;}
+    p{display: inline-block; padding: 0 50px;}
+    a{display: inline-block; padding: 20px 80px 40px 80px;}
+    .text{text-align: center;}
+}
+

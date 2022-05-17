@@ -1,0 +1,59 @@
+*{
+    margin: 0 auto;
+}
+
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+body{
+    position: relative;
+    width: 1024px;
+    height: 826px;
+}
+
+#um{
+    position: relative;
+    float: left;
+    width: 512px;
+    height: 413px;
+}
+
+#dois{
+    position: relative;
+    float: left;
+    width: 512px;
+    height: 413px;
+}
+
+#tres{
+    position: relative;
+    float: left;
+    width: 512px;
+    height: 413px;
+}
+
+#quatro{
+    position: relative;
+    float: left;
+    width: 512px;
+    height: 413px;
+}
+
+img{
+    width: 512px;
+    height: 413px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
