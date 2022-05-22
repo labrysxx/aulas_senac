@@ -32,7 +32,7 @@ li{
     font-size: 19px;
 }
 
-a{
+.navbar{
     text-decoration: none;
     color: rgba(43, 42, 42, 0.651);
 }
@@ -65,6 +65,7 @@ img{
     color: #000000;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #404494;
 }
 
 #title p{
@@ -133,9 +134,14 @@ span{
 
 button{
     border: none;
-    color: blue;
     font-size: 15px;
     background-color: transparent;
+    font-weight: bold;
+}
+
+.btn{
+    color: #404494;
+    text-decoration: none;
 }
 
 
