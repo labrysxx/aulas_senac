@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Aula 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="txtMatricula">Matrícula:</label>
+        <input type="number" id="txtMatricula" value="0">
+
+        <label for="txtNome">Nome:</label>
+        <input type="text" id="txtNome">
+
+        <label for="txtEmail">E-mail:</label>
+        <input type="email" id="txtEmail">
+
+        <label for="txtSerie">Série:</label>
+        <input type="text" id="txtSerie">
+
+        <label for="txtDataNascimento">Data de nascimento:</label>
+        <input type="date" id="txtDataNascimento">
+
+        <label for="txtTelefone">Telefone:</label>
+        <input type="number" id="txtTelefone">
+
+        <button type="button" id="btnExibir" onclick="exibeCadastro()">Exibir</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+    <div id="ficha-aluno" class="escrita-inativo">
+
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
