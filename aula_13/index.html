@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <section id="form">
+            <form action="teste.php" method="post">
+                <label for="enviar">Nome:</label>
+                <input type="text" value="" placeholder="Seu nome aqui" required>
+                <br>
+                <label for="">E-mail:</label>
+                <input type="email" placeholder="Seu e-mail aqui" required>
+                <br>
+                <label for="">Telefone:</label>
+                <input type="tel" placeholder="Seu telefone aqui">
+                <br>
+                <label for="">Senha:</label>
+                <input type="password" placeholder="Sua senha aqui" required>
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="color">
+                <input type="date">
+                <input type="datetime-local">
+                <br>
+                <label for="">Somente números:</label>
+                <input type="range" value="number">
+                <input type="file" value="Anexar arquivo">
+                <br>
+                <input id="enviar" type="submit" value="Enviar"> | <input id="apagar" type="reset" value="Apagar">
+
+                <h3>Check box</h3>
+                <label for=""><input type="checkbox" name="morango" value="checkbox">Morango</label>
+                <label for=""><input type="checkbox" name="limao" value="checkbox">Limão</label>
+                <label for=""><input type="checkbox" name="abacaxi" value="checkbox">Abacaxi</label>
+
+                <h3>Radio</h3>
+                <label for=""><input type="radio" name="radio">Xuxu</label>
+                <label for=""><input type="radio" name="radio">Abóbrinha</label>
+                <label for=""><input type="radio" name="radio">Quiabo</label>
+
+                <h3>Carros Novos</h3>
+                <label for=""></label>
+                <select name="" id="">
+                    <option value="volvo">Volvo</option>
+                    <option value="jeep">Jeep</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="fusca">Fusca</option>
+                    <option value="bmw">BMW</option>
+                </select>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
