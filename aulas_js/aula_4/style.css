@@ -21,9 +21,8 @@ label{
 }
 
 #ficha-aluno{
-    display: block;
-    background-color: aquamarine;
-    width: 300px;
+    display: block; 
+    width: 400px;
     height: 450px;
     margin-top: 40px;
 }
@@ -33,10 +32,5 @@ label{
 }
 
 .escrita-ativo{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.titulo{
-    color: blue;
+    background-color: aquamarine;
 }

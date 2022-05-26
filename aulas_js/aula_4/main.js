@@ -21,7 +21,7 @@ console.log(fichaDoAluno);
 
 function exibeCadastro(){
     //Variáveis locais
-    //Valores primitivos => string, int, float ou boolean
+    //valores primitivos
     let valorMatricula = matricula.value;
     let valorNome = nome.value;
     let valorEmail = email.value;
@@ -30,12 +30,5 @@ function exibeCadastro(){
     let valorTelefone = telefone.value;
 
     //Exibição dos dados
-    //alert(valorMatricula);
-    //fichaDoAluno.textContent = "<h3>" + matricula + "</h3>" + valorMatricula;
-    fichaDoAluno.innerHTML = "<h3 class='titulo'>Matricula:</h3>" + valorMatricula;
     fichaDoAluno.setAttribute('class', 'escrita-ativo');
-
-    // atributo e parâmetro usa-se ''
-
 }
-
